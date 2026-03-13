@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 18%, 87%);
+}
+
+.recipe-box {
+  background-color: hsl(0, 0%, 100%);
+  /* block-size: 800px; */
+  inline-size: 400px;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+img {
+  block-size: 25%;
+  inline-size: 100%;
+  border-radius: 8px;
+}
+
+.prep-time {
+  background-color: lightpink;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+ul,
+ol {
+  padding: 25px;
+}
