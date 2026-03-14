@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './scoial-links-profile.html',
   styleUrl: './scoial-links-profile.css',
 })
-export class ScoialLinksProfile {
-
-}
+export class ScoialLinksProfile {}
