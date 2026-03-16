@@ -97,7 +97,7 @@ h2 {
   inline-size: 180px;
   border-radius: 50%;
   color: white;
-  background-color: hsl(241, 81%, 54%);
+  background-color: hsl(241, 81%, 54%, 0.3);
 }
 
 .average-score {
