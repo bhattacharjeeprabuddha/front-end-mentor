@@ -94,8 +94,8 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  block-size: 180px;
-  inline-size: 180px;
+  padding: 48px;
+  aspect-ratio: 1;
   border-radius: 50%;
   color: white;
   background-color: hsl(241, 81%, 54%, 0.3);
