@@ -6,8 +6,10 @@
   min-height: 100vh;
 }
 
-p {
+p,
+h2 {
   padding: 0;
+  margin: 0;
 }
 
 .whole-box {
@@ -26,15 +28,15 @@ p {
   align-items: center;
   background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 16px;
-  padding: 16px;
+  padding: 32px;
+  gap: 16px;
 }
 
 .summary-category {
-  padding-inline: 8px;
-  /* margin-block: 16px; */
+  padding: 16px;
+
   display: flex;
   justify-content: space-between;
-  gap: 100px;
   border-radius: 8px;
 }
 
@@ -78,9 +80,8 @@ p {
 .summary button {
   background-color: hsl(224, 30%, 27%);
   color: hsl(241, 100%, 89%);
-  padding-block: 16px;
+  padding: 16px;
   border-radius: 32px;
-  margin-block-start: 16px;
 }
 
 .result-box p,
@@ -106,8 +107,7 @@ h2 {
 }
 
 .score-comparison-comment {
-  /* max-inline-size: 320px; */
-  padding-inline: 52px;
+  padding-inline: 32px;
 }
 
 .score-level {
